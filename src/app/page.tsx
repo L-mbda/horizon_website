@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import {motion} from "framer-motion";
 import { getCookie, setCookie } from "cookies-next";
 import Footer from "@/components/Footer";
-import Link from "next/link";
 
 export default function Home() {
   // Fancy loading screen
